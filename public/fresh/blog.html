@@ -1,0 +1,1603 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from freshcart.codescandy.com/tailwindcss/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Jan 2026 12:11:20 GMT -->
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon/favicon.ico" />
+
+<!-- Libs CSS -->
+<link rel="preconnect" href="https://fonts.googleapis.com/" />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" />
+<link rel="stylesheet" href="../../cdn.jsdelivr.net/npm/%40tabler/icons-webfont%402.46.0/tabler-icons.min.css" />
+<link rel="stylesheet" href="assets/libs/simplebar/dist/simplebar.min.css" />
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="assets/css/theme.min.css">
+  
+
+	<title>Blog - TailwindCSS eCommerce HTML Template - FreshCart</title>
+</head>
+
+<body>
+	<header>
+	<!-- navbar -->
+	<div class="border-b">
+		<div class="bg-gray-100 py-1">
+			<div class="container">
+				<div class="flex flex-wrap">
+					<div class="md:w-1/2 w-full text-center md:text-left"><span>Super Value Deals - Save more with coupons</span>
+					</div>
+					<div class="w-1/2 text-right hidden lg:block">
+						<div class="dropdown flex justify-end">
+							<a class="dropdown-toggle text-inherit flex items-center" href="#!" data-bs-toggle="dropdown"
+								id="dropdownMenuLink">
+								<span class="mr-2">
+									<svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg"
+										id="languageIcon">
+										<!-- Default SVG content for English -->
+										<g clip-path="">
+											<path d="M0 0.5H16V12.5H0V0.5Z" fill="#012169" />
+											<path
+												d="M1.875 0.5L7.975 5.025L14.05 0.5H16V2.05L10 6.525L16 10.975V12.5H14L8 8.025L2.025 12.5H0V11L5.975 6.55L0 2.1V0.5H1.875Z"
+												fill="white" />
+											<path
+												d="M10.6 7.525L16 11.5V12.5L9.225 7.525H10.6ZM6 8.025L6.15 8.9L1.35 12.5H0L6 8.025ZM16 0.5V0.575L9.775 5.275L9.825 4.175L14.75 0.5H16ZM0 0.5L5.975 4.9H4.475L0 1.55V0.5Z"
+												fill="#C8102E" />
+											<path d="M6.025 0.5V12.5H10.025V0.5H6.025ZM0 4.5V8.5H16V4.5H0Z" fill="white" />
+											<path d="M0 5.325V7.725H16V5.325H0ZM6.825 0.5V12.5H9.225V0.5H6.825Z" fill="#C8102E" />
+										</g>
+									</svg>
+								</span>
+								<span id="selectedLanguage">English</span>
+							</a>
+
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="#!" onclick="changeLanguage('English')">
+										<span>
+											<svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="">
+													<path d="M0 0.5H16V12.5H0V0.5Z" fill="#012169" />
+													<path
+														d="M1.875 0.5L7.975 5.025L14.05 0.5H16V2.05L10 6.525L16 10.975V12.5H14L8 8.025L2.025 12.5H0V11L5.975 6.55L0 2.1V0.5H1.875Z"
+														fill="white" />
+													<path
+														d="M10.6 7.525L16 11.5V12.5L9.225 7.525H10.6ZM6 8.025L6.15 8.9L1.35 12.5H0L6 8.025ZM16 0.5V0.575L9.775 5.275L9.825 4.175L14.75 0.5H16ZM0 0.5L5.975 4.9H4.475L0 1.55V0.5Z"
+														fill="#C8102E" />
+													<path d="M6.025 0.5V12.5H10.025V0.5H6.025ZM0 4.5V8.5H16V4.5H0Z" fill="white" />
+													<path d="M0 5.325V7.725H16V5.325H0ZM6.825 0.5V12.5H9.225V0.5H6.825Z" fill="#C8102E" />
+												</g>
+												<defs>
+													<clipPath>
+														<rect width="16" height="12" fill="white" transform="translate(0 0.5)" />
+													</clipPath>
+												</defs>
+											</svg>
+										</span>
+										English
+									</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#!" onclick="changeLanguage('Deutsch')">
+										<span>
+											<svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_5543_19751)">
+													<path d="M0 8.5H16V12.5H0V8.5Z" fill="#FFCE00" />
+													<path d="M0 0.5H16V4.5H0V0.5Z" fill="black" />
+													<path d="M0 4.5H16V8.5H0V4.5Z" fill="#DD0000" />
+												</g>
+												<defs>
+													<clipPath id="clip0_5543_19751">
+														<rect width="16" height="12" fill="white" transform="translate(0 0.5)" />
+													</clipPath>
+												</defs>
+											</svg>
+										</span>
+										Deutsch
+									</a>
+								</li>
+								<!-- Add more languages as needed -->
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pt-5">
+			<div class="container">
+				<div class="flex flex-wrap w-full items-center justify-between">
+					<div class="lg:w-1/6 md:w-1/2 w-2/5">
+						<a class="navbar-brand" href="index.html">
+							<img src="assets/images/logo/freshcart-logo.svg" alt="TailwindCSS eCommerce HTML Template" />
+						</a>
+					</div>
+					<div class="lg:w-2/5 hidden lg:block">
+						<form action="#">
+							<div class="relative">
+								<label for="searchProducts" class="invisible hidden">Search</label>
+								<input
+									class="border border-gray-300 text-gray-900 rounded-lg focus:shadow-[0_0_0_.25rem_rgba(10,173,10,.25)] focus:ring-green-600 focus:ring-0 focus:border-green-600 block p-2 px-3 disabled:opacity-50 disabled:pointer-events-none w-full text-base"
+									type="search" placeholder="Search for products" id="searchProducts" />
+								<button class="absolute right-0 top-0 p-3" type="button">
+									<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="16"
+										height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+										stroke-linecap="round" stroke-linejoin="round">
+										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+										<path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+										<path d="M21 21l-6 -6" />
+									</svg>
+								</button>
+							</div>
+						</form>
+					</div>
+					<div class="lg:w-1/5 hidden lg:block">
+						<!-- Button trigger modal -->
+						<button type="button"
+							class="btn inline-flex items-center gap-x-2 bg-transparent text-gray-600 border-gray-300 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-gray-700 hover:border-gray-700 active:bg-gray-700 active:border-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-300"
+							data-bs-toggle="modal" data-bs-target="#locationModal">
+							<span class="flex items-center gap-1">
+								<span>
+									<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="16"
+										height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+										stroke-linecap="round" stroke-linejoin="round">
+										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+										<path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+										<path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+									</svg>
+								</span>
+								<span>Location</span>
+							</span>
+						</button>
+					</div>
+					<div class="lg:w-1/5 text-end md:w-1/2 w-3/5">
+						<div class="flex gap-7 items-center justify-end">
+							<div>
+								<a href="shop-wishlist.html" class="relative">
+									<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="24"
+										height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+										stroke-linecap="round" stroke-linejoin="round">
+										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+										<path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+									</svg>
+									<span
+										class="absolute top-0 -mt-1 left-full rounded-full h-5 w-5 -ml-2 bg-green-600 text-white text-center font-semibold text-sm">
+										5
+										<span class="invisible">unread messages</span>
+									</span>
+								</a>
+							</div>
+							<div>
+								<a href="#!" class="text-gray-600" data-bs-toggle="modal" data-bs-target="#userModal">
+									<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="22"
+										height="22" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+										stroke-linecap="round" stroke-linejoin="round">
+										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+										<path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+										<path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+									</svg>
+								</a>
+							</div>
+							<div>
+								<button type="button" class="text-gray-600 relative" data-bs-toggle="offcanvas"
+									data-bs-target="#offcanvasRight" role="button" aria-controls="offcanvasRight">
+									<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-bag" width="24"
+										height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+										stroke-linecap="round" stroke-linejoin="round">
+										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+										<path
+											d="M6.331 8h11.339a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1 -2.966 2.544h-6.852a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304z" />
+										<path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+									</svg>
+									<span id="cartCount"
+										class="absolute top-0 -mt-1 left-full rounded-full h-5 w-5 -ml-3 bg-green-600 text-white text-center font-semibold text-sm">
+										0
+										<span class="invisible">unread messages</span>
+									</span>
+								</button>
+							</div>
+							<div class="lg:hidden leading-none">
+								<!-- Button -->
+								<button class="collapsed" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar-default"
+									aria-controls="navbar-default" aria-label="Toggle navigation">
+									<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2 text-gray-800"
+										width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+										stroke-linecap="round" stroke-linejoin="round">
+										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+										<path d="M4 6l16 0" />
+										<path d="M4 12l16 0" />
+										<path d="M4 18l16 0" />
+									</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav
+			class="navbar relative navbar-expand-lg lg:flex lg:flex-wrap items-center content-between text-black navbar-default"
+			aria-label="Offcanvas navbar large">
+			<div class="container max-w-7xl mx-auto w-full xl:px-4 lg:px-0">
+				<div class="offcanvas offcanvas-left lg:visible" tabindex="-1" id="navbar-default">
+					<div class="offcanvas-header pb-1">
+						<a href="index.html"><img src="assets/images/logo/freshcart-logo.svg"
+								alt="TailwindCSS eCommerce HTML Template" /></a>
+						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+							<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x text-gray-700" width="24"
+								height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+								stroke-linecap="round" stroke-linejoin="round">
+								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+								<path d="M18 6l-12 12" />
+								<path d="M6 6l12 12" />
+							</svg>
+						</button>
+					</div>
+					<div class="offcanvas-body lg:flex lg:items-center">
+						<div class="block lg:hidden mb-4">
+							<form action="#">
+								<div class="relative">
+									<label for="searhNavbar" class="invisible hidden">Search</label>
+									<input
+										class="border border-gray-300 text-gray-900 rounded-lg focus:shadow-[0_0_0_.25rem_rgba(10,173,10,.25)] focus:ring-green-600 focus:ring-0 focus:border-green-600 block p-2 px-3 disabled:opacity-50 disabled:pointer-events-none w-full text-base"
+										type="search" placeholder="Search for products" id="searhNavbar" />
+									<button class="absolute right-0 top-0 p-3" type="button">
+										<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="16"
+											height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+											stroke-linecap="round" stroke-linejoin="round">
+											<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+											<path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+											<path d="M21 21l-6 -6" />
+										</svg>
+									</button>
+								</div>
+							</form>
+						</div>
+						<div class="block lg:hidden mb-4">
+							<a class="btn inline-flex items-center gap-x-2 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 justify-center"
+								data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+								aria-controls="collapseExample">
+								<span class="mr-2">
+									<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-layout-grid" width="16"
+										height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+										stroke-linecap="round" stroke-linejoin="round">
+										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+										<path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+										<path d="M14 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+										<path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+										<path d="M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+									</svg>
+								</span>
+								All Departments
+							</a>
+							<div class="collapse mt-2" id="collapseExample">
+								<div class="card card-body">
+									<ul class="list-unstyled">
+										<li><a class="dropdown-item" href="shop-grid.html">Dairy, Bread & Eggs</a></li>
+										<li><a class="dropdown-item" href="shop-grid.html">Snacks & Munchies</a></li>
+										<li><a class="dropdown-item" href="shop-grid.html">Fruits & Vegetables</a></li>
+										<li><a class="dropdown-item" href="shop-grid.html">Cold Drinks & Juices</a></li>
+										<li><a class="dropdown-item" href="shop-grid.html">Breakfast & Instant Food</a></li>
+										<li><a class="dropdown-item" href="shop-grid.html">Bakery & Biscuits</a></li>
+										<li><a class="dropdown-item" href="shop-grid.html">Chicken, Meat & Fish</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown hidden lg:block">
+							<button
+								class="mr-4 btn inline-flex items-center gap-x-2 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300"
+								type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+								<span>
+									<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-layout-grid" width="16"
+										height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+										stroke-linecap="round" stroke-linejoin="round">
+										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+										<path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+										<path d="M14 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+										<path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+										<path d="M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+									</svg>
+								</span>
+								All Departments
+							</button>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="shop-grid.html">Dairy, Bread & Eggs</a></li>
+								<li><a class="dropdown-item" href="shop-grid.html">Snacks & Munchies</a></li>
+								<li><a class="dropdown-item" href="shop-grid.html">Fruits & Vegetables</a></li>
+								<li><a class="dropdown-item" href="shop-grid.html">Cold Drinks & Juices</a></li>
+								<li><a class="dropdown-item" href="shop-grid.html">Breakfast & Instant Food</a></li>
+								<li><a class="dropdown-item" href="shop-grid.html">Bakery & Biscuits</a></li>
+								<li><a class="dropdown-item" href="shop-grid.html">Chicken, Meat & Fish</a></li>
+							</ul>
+						</div>
+						<div>
+							<ul class="navbar-nav lg:flex gap-3 lg:items-center">
+								<li class="nav-item dropdown w-full lg:w-auto">
+									<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+										aria-expanded="false">Home</a>
+									<ul class="dropdown-menu">
+										<li><a class="dropdown-item" href="index.html">Home Default</a></li>
+										<li>
+											<a class="dropdown-item" href="index-2.html">
+												Home Modern
+
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="index-3.html">
+												Home Creative
+
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="index-4.html">
+												Home Local Store
+
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="index-5.html">
+												Home Minimalist
+
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown w-full lg:w-auto">
+									<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+										aria-expanded="false">Shop</a>
+									<ul class="dropdown-menu">
+										<li><a class="dropdown-item" href="shop-grid.html">Shop Grid - Filter</a></li>
+										<li><a class="dropdown-item" href="shop-grid-3-column.html">Shop Grid - 3 column</a></li>
+										<li><a class="dropdown-item" href="shop-list.html">Shop List - Filter</a></li>
+										<li><a class="dropdown-item" href="shop-filter.html">Shop - Filter</a></li>
+										<li><a class="dropdown-item" href="shop-fullwidth.html">Shop Wide</a></li>
+										<li><a class="dropdown-item" href="shop-single.html">Shop Single</a></li>
+										<li><a class="dropdown-item" href="shop-wishlist.html">Shop Wishlist</a></li>
+										<li><a class="dropdown-item" href="shop-cart.html">Shop Cart</a></li>
+										<li><a class="dropdown-item" href="shop-checkout.html">Shop Checkout</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown w-full lg:w-auto">
+									<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+										aria-expanded="false">Stores</a>
+									<ul class="dropdown-menu">
+										<li><a class="dropdown-item" href="store-list.html">Store List</a></li>
+										<li><a class="dropdown-item" href="store-grid.html">Store Grid</a></li>
+										<li><a class="dropdown-item" href="store-single.html">Store Single</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown w-full lg:w-auto dropdown-fullwidth">
+									<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+										aria-expanded="false">Mega menu</a>
+									<div class="dropdown-menu pb-0">
+										<div class="flex flex-wrap lg:flex-nowrap p-2 lg:p-6 gap-x-6">
+											<div class="lg:w-1/4 w-full mb-4">
+												<h6 class="text-green-600 pl-3 mb-2">Dairy, Bread & Eggs</h6>
+												<a class="dropdown-item" href="shop-grid.html">Butter</a>
+												<a class="dropdown-item" href="shop-grid.html">Milk Drinks</a>
+												<a class="dropdown-item" href="shop-grid.html">Curd & Yogurt</a>
+												<a class="dropdown-item" href="shop-grid.html">Eggs</a>
+												<a class="dropdown-item" href="shop-grid.html">Buns & Bakery</a>
+												<a class="dropdown-item" href="shop-grid.html">Cheese</a>
+												<a class="dropdown-item" href="shop-grid.html">Condensed Milk</a>
+												<a class="dropdown-item" href="shop-grid.html">Dairy Products</a>
+											</div>
+											<div class="lg:w-1/4 w-full mb-4">
+												<h6 class="text-green-600 pl-3 mb-2">Breakfast & Instant Food</h6>
+												<a class="dropdown-item" href="shop-grid.html">Breakfast Cereal</a>
+												<a class="dropdown-item" href="shop-grid.html">Noodles, Pasta & Soup</a>
+												<a class="dropdown-item" href="shop-grid.html">Frozen Veg Snacks</a>
+												<a class="dropdown-item" href="shop-grid.html">Frozen Non-Veg Snacks</a>
+												<a class="dropdown-item" href="shop-grid.html">Vermicelli</a>
+												<a class="dropdown-item" href="shop-grid.html">Instant Mixes</a>
+												<a class="dropdown-item" href="shop-grid.html">Butter</a>
+												<a class="dropdown-item" href="shop-grid.html">Fruit and Juices</a>
+											</div>
+											<div class="lg:w-1/4 w-full mb-4">
+												<h6 class="text-green-600 pl-3 mb-2">Cold Drinks & Juices</h6>
+												<a class="dropdown-item" href="shop-grid.html">Soft Drinks</a>
+												<a class="dropdown-item" href="shop-grid.html">Fruit Juices</a>
+												<a class="dropdown-item" href="shop-grid.html">Coldpress</a>
+												<a class="dropdown-item" href="shop-grid.html">Water & Ice Cubes</a>
+												<a class="dropdown-item" href="shop-grid.html">Soda & Mixers</a>
+												<a class="dropdown-item" href="shop-grid.html">Health Drinks</a>
+												<a class="dropdown-item" href="shop-grid.html">Herbal Drinks</a>
+												<a class="dropdown-item" href="shop-grid.html">Milk Drinks</a>
+											</div>
+											<div class="lg:w-1/4 w-full mb-4">
+												<div class="card border-0">
+													<img src="assets/images/banner/menu-banner.jpg"
+														alt="TailwindCSS eCommerce HTML Template" />
+													<div class="absolute pl-6 mt-8">
+														<h5>
+															Dont miss this
+															<br />
+															offer today.
+														</h5>
+														<a href="#"
+															class="btn inline-flex items-center gap-x-2 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 btn-sm mt-3">
+															Shop Now
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="nav-item dropdown w-full lg:w-auto">
+									<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+										aria-expanded="false">Pages</a>
+									<ul class="dropdown-menu">
+										<li><a class="dropdown-item" href="blog.html">Blog</a></li>
+										<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
+										<li><a class="dropdown-item" href="blog-category.html">Blog Category</a></li>
+										<li><a class="dropdown-item" href="about.html">About us</a></li>
+										<li><a class="dropdown-item" href="404error.html">404 Error</a></li>
+										<li><a class="dropdown-item" href="contact.html">Contact</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown w-full lg:w-auto">
+									<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+										aria-expanded="false">Account</a>
+									<ul class="dropdown-menu lg:right-0 xl:right-auto">
+										<li><a class="dropdown-item" href="signin.html">Sign in</a></li>
+										<li><a class="dropdown-item" href="signup.html">Signup</a></li>
+										<li><a class="dropdown-item" href="forgot-password.html">Forgot Password</a></li>
+										<li class="dropdown-submenu dropend">
+											<a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">My Account</a>
+											<ul class="dropdown-menu">
+												<li><a class="dropdown-item" href="account-orders.html">Orders</a></li>
+												<li><a class="dropdown-item" href="account-settings.html">Settings</a></li>
+												<li><a class="dropdown-item" href="account-address.html">Address</a></li>
+												<li><a class="dropdown-item" href="account-payment-method.html">Payment Method</a>
+												</li>
+												<li><a class="dropdown-item" href="account-notification.html">Notification</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="dashboard/index.html">Dashboard</a>
+								</li>
+
+								<li class="nav-item dropdown w-full lg:w-auto dropdown-flyout">
+									<a class="nav-link" href="#" id="navbarDropdownDocs" role="button" data-bs-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">Docs</a>
+									<div class="dropdown-menu dropdown-menu-lg lg:right-0 xl:right-auto">
+										<a class="dropdown-item items-start" href="docs/index.html">
+											<div>
+												<svg xmlns="http://www.w3.org/2000/svg"
+													class="icon icon-tabler icon-tabler-file-text text-green-500" width="24" height="24"
+													viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+													stroke-linejoin="round">
+													<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+													<path d="M14 3v4a1 1 0 0 0 1 1h4" />
+													<path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+													<path d="M9 9l1 0" />
+													<path d="M9 13l6 0" />
+													<path d="M9 17l6 0" />
+												</svg>
+											</div>
+											<div class="ml-3 leading-none">
+												<h6 class="mb-1">Documentations</h6>
+												<p class="text-sm">Browse the all documentation</p>
+											</div>
+										</a>
+										<a class="dropdown-item items-start" href="docs/changelog.html">
+											<div>
+												<svg xmlns="http://www.w3.org/2000/svg"
+													class="icon icon-tabler icon-tabler-box-multiple text-green-500" width="24" height="24"
+													viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+													stroke-linejoin="round">
+													<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+													<path d="M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
+													<path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
+												</svg>
+											</div>
+											<div class="ml-3 leading-none">
+												<h6 class="mb-1">
+													Changelog
+													<span class="text-green-600 ml-1">v1.4.0</span>
+												</h6>
+												<p class="text-sm">See what's new</p>
+											</div>
+										</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>
+<!-- Modal -->
+<div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="userModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content p-8">
+			<div class="flex justify-between items-center mb-4">
+				<h3 class="font-bold text-gray-800" id="userModalLabel">Sign Up</h3>
+
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x text-gray-700" width="24"
+						height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<path d="M18 6l-12 12" />
+						<path d="M6 6l12 12" />
+					</svg>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form class="needs-validation" novalidate>
+					<div class="mb-3">
+						<label for="fullName" class="mb-2 block text-gray-800">Name</label>
+						<input type="text"
+							class="form-control border border-gray-300 text-gray-900 rounded-lg focus:shadow-[0_0_0_.25rem_rgba(10,173,10,.25)] focus:ring-green-600 focus:ring-0 focus:border-green-600 block p-2 px-3 disabled:opacity-50 disabled:pointer-events-none w-full text-base"
+							id="fullName" placeholder="Enter Your Name" required />
+						<div class="invalid-feedback">Please enter name.</div>
+					</div>
+					<div class="mb-3">
+						<label for="email" class="mb-2 block text-gray-800">Email address</label>
+						<input type="email"
+							class="form-control border border-gray-300 text-gray-900 rounded-lg focus:shadow-[0_0_0_.25rem_rgba(10,173,10,.25)] focus:ring-green-600 focus:ring-0 focus:border-green-600 block p-2 px-3 disabled:opacity-50 disabled:pointer-events-none w-full text-base"
+							id="email" placeholder="Enter Email address" autocomplete="email" required />
+						<div class="invalid-feedback">Please enter email.</div>
+					</div>
+					<div class="mb-5">
+						<label for="password" class="mb-2 block text-gray-800">Password</label>
+						<input type="password"
+							class="form-control border border-gray-300 text-gray-900 rounded-lg focus:shadow-[0_0_0_.25rem_rgba(10,173,10,.25)] focus:ring-green-600 focus:ring-0 focus:border-green-600 block p-2 px-3 disabled:opacity-50 disabled:pointer-events-none w-full text-base"
+							id="password" placeholder="Enter Password" required />
+						<div class="invalid-feedback">Please enter password.</div>
+						<span class="block mt-1 text-sm text-gray-500">
+							By Signup, you agree to our
+							<a href="#!" class="text-green-600">Terms of Service</a>
+							&
+							<a href="#!" class="text-green-600">Privacy Policy</a>
+						</span>
+					</div>
+
+					<button type="submit"
+						class="btn inline-flex items-center gap-x-2 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 justify-center">
+						Sign Up
+					</button>
+				</form>
+			</div>
+			<div class="modal-footer flex border-0 justify-center mt-3">
+				Already have an account?
+				<a href="#" class="text-green-600 ml-1">Sign in</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Shop Cart -->
+
+<div class="offcanvas offcanvas-right" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+	<div class="offcanvas-header border-b">
+		<div>
+			<h5 id="offcanvasRightLabel">Shop Cart</h5>
+			<span>Location in 382480</span>
+		</div>
+		<button type="button" class="btn-close text-inherit" data-bs-dismiss="offcanvas" aria-label="Close">
+			<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x text-gray-700" width="24"
+				height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+				stroke-linejoin="round">
+				<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+				<path d="M18 6l-12 12" />
+				<path d="M6 6l12 12" />
+			</svg>
+		</button>
+	</div>
+	<div class="offcanvas-body p-4">
+		<div>
+			<!-- alert -->
+			<div class="bg-red-500 bg-opacity-25 text-red-800 mb-3 rounded-lg p-4" role="alert">
+				You’ve got FREE delivery. Start
+				<a href="#!" class="alert-link">checkout now!</a>
+			</div>
+			<ul class="list-none">
+				<!-- list group -->
+				<li class="py-3 border-t">
+					<div class="flex items-center">
+						<div class="w-1/2 md:w-1/2 lg:w-3/5">
+							<div class="flex">
+								<img src="assets/images/products/product-img-1.jpg" alt="Ecommerce" class="w-16 h-16" />
+								<div class="ml-3">
+									<!-- title -->
+									<a href="shop-single.html" class="text-inherit">
+										<h6>Haldiram's Sev Bhujia</h6>
+									</a>
+									<span><small class="text-gray-500">.98 / lb</small></span>
+									<!-- text -->
+									<div class="mt-2 small leading-none">
+										<a href="#!" class="text-green-600 flex items-center">
+											<span class="mr-1 align-text-bottom">
+												<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trash" width="14"
+													height="14" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+													stroke-linecap="round" stroke-linejoin="round">
+													<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+													<path d="M4 7l16 0" />
+													<path d="M10 11l0 6" />
+													<path d="M14 11l0 6" />
+													<path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
+													<path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
+												</svg>
+											</span>
+											<span class="text-gray-500 text-sm">Remove</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- input group -->
+						<div class="w-1/3 md:w-1/4 lg:w-1/5">
+							<!-- input -->
+							<div class="input-group input-spinner rounded-lg flex justify-between items-center">
+								<input type="button" value="-" class="button-minus w-8 py-1 border-r cursor-pointer border-gray-300"
+									data-field="quantity" />
+								<input type="number" step="1" max="10" value="1" name="quantity"
+									class="quantity-field w-9 px-2 text-center h-7 border-0 bg-transparent" />
+								<input type="button" value="+" class="button-plus w-8 py-1 border-l cursor-pointer border-gray-300"
+									data-field="quantity" />
+							</div>
+						</div>
+						<!-- price -->
+						<div class="w-1/5 text-center md:w-1/5">
+							<span class="font-bold text-gray-800">$5.00</span>
+						</div>
+					</div>
+				</li>
+				<!-- list group -->
+				<li class="py-3 border-t">
+					<div class="flex items-center">
+						<div class="w-1/2 md:w-1/2 lg:w-3/5">
+							<div class="flex">
+								<img src="assets/images/products/product-img-2.jpg" alt="Ecommerce" class="w-16 h-16" />
+								<div class="ml-3">
+									<a href="shop-single.html" class="text-inherit">
+										<h6>NutriChoice Digestive</h6>
+									</a>
+									<span><small class="text-gray-500">250g</small></span>
+									<!-- text -->
+									<div class="mt-2 small leading-none">
+										<a href="#!" class="text-green-600 flex items-center">
+											<span class="mr-1 align-text-bottom">
+												<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trash" width="14"
+													height="14" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+													stroke-linecap="round" stroke-linejoin="round">
+													<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+													<path d="M4 7l16 0" />
+													<path d="M10 11l0 6" />
+													<path d="M14 11l0 6" />
+													<path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
+													<path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
+												</svg>
+											</span>
+											<span class="text-gray-500 text-sm">Remove</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- input group -->
+						<div class="w-1/3 md:w-1/4 lg:w-1/5">
+							<!-- input -->
+							<div class="input-group input-spinner rounded-lg flex justify-between items-center">
+								<input type="button" value="-" class="button-minus w-8 py-1 border-r cursor-pointer border-gray-300"
+									data-field="quantity" />
+								<input type="number" step="1" max="10" value="1" name="quantity"
+									class="quantity-field w-9 px-2 text-center h-7 border-0 bg-transparent" />
+								<input type="button" value="+" class="button-plus w-8 py-1 border-l cursor-pointer border-gray-300"
+									data-field="quantity" />
+							</div>
+						</div>
+						<!-- price -->
+						<div class="w-1/5 text-center md:w-1/5">
+							<span class="font-bold text-red-600">$20.00</span>
+							<div class="line-through text-gray-500 small">$26.00</div>
+						</div>
+					</div>
+				</li>
+				<!-- list group -->
+				<li class="py-3 border-t">
+					<div class="flex items-center">
+						<div class="w-1/2 md:w-1/2 lg:w-3/5">
+							<div class="flex">
+								<img src="assets/images/products/product-img-3.jpg" alt="Ecommerce" class="w-16 h-16" />
+								<div class="ml-3">
+									<!-- title -->
+									<a href="shop-single.html" class="text-inherit">
+										<h6>Cadbury 5 Star Chocolate</h6>
+									</a>
+									<span><small class="text-gray-500">1 kg</small></span>
+									<!-- text -->
+									<div class="mt-2 small leading-none">
+										<a href="#!" class="text-green-600 flex items-center">
+											<span class="mr-1 align-text-bottom">
+												<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trash" width="14"
+													height="14" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+													stroke-linecap="round" stroke-linejoin="round">
+													<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+													<path d="M4 7l16 0" />
+													<path d="M10 11l0 6" />
+													<path d="M14 11l0 6" />
+													<path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
+													<path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
+												</svg>
+											</span>
+											<span class="text-gray-500 text-sm">Remove</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- input group -->
+						<div class="w-1/3 md:w-1/4 lg:w-1/5">
+							<!-- input -->
+							<div class="input-group input-spinner rounded-lg flex justify-between items-center">
+								<input type="button" value="-" class="button-minus w-8 py-1 border-r cursor-pointer border-gray-300"
+									data-field="quantity" />
+								<input type="number" step="1" max="10" value="1" name="quantity"
+									class="quantity-field w-9 px-2 text-center h-7 border-0 bg-transparent" />
+								<input type="button" value="+" class="button-plus w-8 py-1 border-l cursor-pointer border-gray-300"
+									data-field="quantity" />
+							</div>
+						</div>
+						<!-- price -->
+						<div class="w-1/5 text-center md:w-1/5">
+							<span class="font-bold text-gray-800">$15.00</span>
+							<div class="line-through text-gray-500 small">$20.00</div>
+						</div>
+					</div>
+				</li>
+				<!-- list group -->
+				<li class="py-3 border-t">
+					<div class="flex items-center">
+						<div class="w-1/2 md:w-1/2 lg:w-3/5">
+							<div class="flex">
+								<img src="assets/images/products/product-img-4.jpg" alt="Ecommerce" class="w-16 h-16" />
+								<div class="ml-3">
+									<!-- title -->
+									<!-- title -->
+									<a href="shop-single.html" class="text-inherit">
+										<h6>Onion Flavour Potato</h6>
+									</a>
+									<span><small class="text-gray-500">250g</small></span>
+									<!-- text -->
+									<div class="mt-2 small leading-none">
+										<a href="#!" class="text-green-600 flex items-center">
+											<span class="mr-1 align-text-bottom">
+												<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trash" width="14"
+													height="14" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+													stroke-linecap="round" stroke-linejoin="round">
+													<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+													<path d="M4 7l16 0" />
+													<path d="M10 11l0 6" />
+													<path d="M14 11l0 6" />
+													<path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
+													<path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
+												</svg>
+											</span>
+											<span class="text-gray-500 text-sm">Remove</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- input group -->
+						<div class="w-1/3 md:w-1/4 lg:w-1/5">
+							<!-- input -->
+							<div class="input-group input-spinner rounded-lg flex justify-between items-center">
+								<input type="button" value="-" class="button-minus w-8 py-1 border-r cursor-pointer border-gray-300"
+									data-field="quantity" />
+								<input type="number" step="1" max="10" value="1" name="quantity"
+									class="quantity-field w-9 px-2 text-center h-7 border-0 bg-transparent" />
+								<input type="button" value="+" class="button-plus w-8 py-1 border-l cursor-pointer border-gray-300"
+									data-field="quantity" />
+							</div>
+						</div>
+						<!-- price -->
+						<div class="w-1/5 text-center md:w-1/5">
+							<span class="font-bold text-gray-800">$15.00</span>
+							<div class="line-through text-gray-500 small">$20.00</div>
+						</div>
+					</div>
+				</li>
+				<!-- list group -->
+				<li class="py-3 border-t border-b">
+					<div class="flex items-center">
+						<div class="w-1/2 md:w-1/2 lg:w-3/5">
+							<div class="flex">
+								<img src="assets/images/products/product-img-5.jpg" alt="Ecommerce" class="w-16 h-16" />
+								<div class="ml-3">
+									<!-- title -->
+									<a href="shop-single.html" class="text-inherit">
+										<h6>Salted Instant Popcorn</h6>
+									</a>
+									<span><small class="text-gray-500">100g</small></span>
+									<!-- text -->
+									<div class="mt-2 small leading-none">
+										<a href="#!" class="text-green-600 flex items-center">
+											<span class="mr-1 align-text-bottom">
+												<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trash" width="14"
+													height="14" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+													stroke-linecap="round" stroke-linejoin="round">
+													<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+													<path d="M4 7l16 0" />
+													<path d="M10 11l0 6" />
+													<path d="M14 11l0 6" />
+													<path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
+													<path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
+												</svg>
+											</span>
+											<span class="text-gray-500 text-sm">Remove</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- input group -->
+						<div class="w-1/3 md:w-1/4 lg:w-1/5">
+							<!-- input -->
+							<div class="input-group input-spinner rounded-lg flex justify-between items-center">
+								<input type="button" value="-" class="button-minus w-8 py-1 border-r cursor-pointer border-gray-300"
+									data-field="quantity" />
+								<input type="number" step="1" max="10" value="1" name="quantity"
+									class="quantity-field w-9 px-2 text-center h-7 border-0 bg-transparent" />
+								<input type="button" value="+" class="button-plus w-8 py-1 border-l cursor-pointer border-gray-300"
+									data-field="quantity" />
+							</div>
+						</div>
+						<!-- price -->
+						<div class="w-1/5 text-center md:w-1/5">
+							<span class="font-bold text-gray-800">$15.00</span>
+							<div class="line-through text-gray-500 small">$25.00</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<!-- btn -->
+			<div class="flex justify-between mt-4">
+				<a href="#!"
+					class="btn inline-flex items-center gap-x-2 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300">
+					Continue Shopping
+				</a>
+				<a href="#!"
+					class="btn inline-flex items-center gap-x-2 bg-gray-800 text-white border-gray-800 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-gray-900 hover:border-gray-900 active:bg-gray-900 active:border-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300">
+					Update Cart
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="locationModal" tabindex="-1" aria-labelledby="locationModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-body p-6">
+				<div class="flex justify-between items-start">
+					<div>
+						<h5 class="mb-1" id="locationModalLabel">Choose your Delivery Location</h5>
+						<p class="text-sm">Enter your address and we will specify the offer you area.</p>
+					</div>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x text-gray-700" width="24"
+							height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+							stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+							<path d="M18 6l-12 12" />
+							<path d="M6 6l12 12" />
+						</svg>
+					</button>
+				</div>
+				<div class="my-5">
+					<label for="searhNavbarSecond" class="invisible hidden">Search</label>
+					<input
+						class="border border-gray-300 text-gray-900 rounded-lg focus:shadow-[0_0_0_.25rem_rgba(10,173,10,.25)] focus:ring-green-600 focus:ring-0 focus:border-green-600 block p-2 px-3 disabled:opacity-50 disabled:pointer-events-none w-full text-base"
+						type="search" placeholder="Search for products" id="searhNavbarSecond" />
+				</div>
+				<div class="flex justify-between items-center mb-2">
+					<h6>Select Location</h6>
+					<a href="#" class="btn btn-outline-gray-400 text-gray-500 btn-sm">Clear All</a>
+				</div>
+				<div>
+					<div data-simplebar style="height: 300px">
+						<div class="list-none">
+							<a href="#"
+								class="border-b hover:bg-gray-100 flex justify-between items-center px-2 py-3 active active:bg-gray-100 bg-gray-100">
+								<span>Alabama</span>
+								<span>Min:$20</span>
+							</a>
+							<a href="#" class="border-b hover:bg-gray-100 flex justify-between items-center px-2 py-3">
+								<span>Alaska</span>
+								<span>Min:$30</span>
+							</a>
+							<a href="#" class="border-b hover:bg-gray-100 flex justify-between items-center px-2 py-3">
+								<span>Arizona</span>
+								<span>Min:$50</span>
+							</a>
+							<a href="#" class="border-b hover:bg-gray-100 flex justify-between items-center px-2 py-3">
+								<span>California</span>
+								<span>Min:$29</span>
+							</a>
+							<a href="#" class="border-b hover:bg-gray-100 flex justify-between items-center px-2 py-3">
+								<span>Colorado</span>
+								<span>Min:$80</span>
+							</a>
+							<a href="#" class="border-b hover:bg-gray-100 flex justify-between items-center px-2 py-3">
+								<span>Florida</span>
+								<span>Min:$90</span>
+							</a>
+							<a href="#" class="border-b hover:bg-gray-100 flex justify-between items-center px-2 py-3">
+								<span>Arizona</span>
+								<span>Min:$50</span>
+							</a>
+							<a href="#" class="border-b hover:bg-gray-100 flex justify-between items-center px-2 py-3">
+								<span>California</span>
+								<span>Min:$29</span>
+							</a>
+							<a href="#" class="border-b hover:bg-gray-100 flex justify-between items-center px-2 py-3">
+								<span>Colorado</span>
+								<span>Min:$80</span>
+							</a>
+							<a href="#" class="border-b hover:bg-gray-100 flex justify-between items-center px-2 py-3">
+								<span>Florida</span>
+								<span>Min:$90</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<main>
+		<div class="mt-4">
+			<div class="container">
+				<div class="flex flex-wrap">
+					<div class="w-full">
+						<!-- breadcrumb -->
+						<nav aria-label="breadcrumb">
+							<ol class="flex flex-wrap">
+								<li class="inline-block text-green-600 mr-2">
+									<a href="#!">
+										Home
+										<svg xmlns="http://www.w3.org/2000/svg"
+											class="icon icon-tabler icon-tabler-chevron-right inline-block" width="14"
+											height="14" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+											fill="none" stroke-linecap="round" stroke-linejoin="round">
+											<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+											<path d="M9 6l6 6l-6 6" />
+										</svg>
+									</a>
+								</li>
+								<li class="inline-block text-green-600 mr-2">
+									<a href="#!">
+										Blog
+
+										<svg xmlns="http://www.w3.org/2000/svg"
+											class="icon icon-tabler icon-tabler-chevron-right inline-block" width="14"
+											height="14" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+											fill="none" stroke-linecap="round" stroke-linejoin="round">
+											<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+											<path d="M9 6l6 6l-6 6" />
+										</svg>
+									</a>
+								</li>
+								<li class="inline-block text-gray-500 active" aria-current="page">Freshcart Blog</li>
+							</ol>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="my-10">
+			<div class="container">
+				<div class="flex flex-wrap">
+					<div class="w-full mb-6">
+						<!-- card -->
+
+						<h1 class="text-xl">FreshCart Blog</h1>
+					</div>
+				</div>
+				<div class="lg:flex gap-4 items-center mb-6">
+					<div class="w-full md:w-full lg:w-2/3">
+						<a href="#!">
+							<!-- img -->
+							<div class="img-zoom">
+								<img src="assets/images/blog/blog-large.html" alt=""
+									class="max-w-full h-auto w-full" />
+							</div>
+						</a>
+					</div>
+					<!-- text -->
+					<div class="w-full md:w-full lg:w-1/3">
+						<div class="lg:pl-14 mt-8 lg:mt-0 flex flex-col gap-8">
+							<div class="flex flex-col gap-3">
+								<h2 class="text-xl"><a href="#!" class="text-inherit">Garlic Cream Bucatini with Peas
+										and Asparagus</a></h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac erat ut neque
+									bibendum egestas sed quis justo. Integer non rhoncus diam. Nullam eget dapibus
+									lectus, vitae
+									condimentum sem.
+								</p>
+							</div>
+							<div class="flex justify-between flex-row text-sm text-gray-500">
+								<span>25 April 2024</span>
+								<span>
+									Read time:
+									<span class="text-gray-900 font-bold">6min</span>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="grid lg:grid-cols-3 md:grid-cols-2 gap-x-6 gap-y-12">
+					<div class="flex flex-col gap-4">
+						<div class="flex flex-col">
+							<a href="#!">
+								<!-- img -->
+								<div class="img-zoom">
+									<img src="assets/images/blog/blog-img-1.html" alt=""
+										class="max-w-full h-auto w-full" />
+								</div>
+							</a>
+						</div>
+						<!-- text -->
+
+						<!-- text -->
+						<div class="flex flex-col gap-4">
+							<div><a href="#!" class="text-green-600">Recipes</a></div>
+							<div class="flex flex-col gap-1">
+								<h2 class="text-md"><a href="#!" class="text-inherit">Harissa Chickpeas with Whipped
+										Feta</a></h2>
+								<p>In et eros dapibus, facilisis ipsum sit amet, tempor dolor. Donec sed nisi gravida,
+									molestie dolor molestie, congue sapien.</p>
+							</div>
+							<div class="flex justify-between text-gray-500 text-sm">
+								<span>22 April 2024</span>
+								<span>
+									Read time:
+									<span class="text-gray-900 font-bold">12min</span>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="flex flex-col gap-4">
+						<div class="flex flex-col">
+							<a href="#!">
+								<!-- img -->
+								<div class="img-zoom">
+									<img src="assets/images/blog/blog-img-2.html" alt=""
+										class="max-w-full h-auto w-full" />
+								</div>
+							</a>
+						</div>
+						<!-- text -->
+
+						<!-- text -->
+						<div class="flex flex-col gap-4">
+							<div><a href="#!" class="text-green-600">Recipes</a></div>
+							<div class="flex flex-col gap-1">
+								<h2 class="text-md"><a href="#!" class="text-inherit">Almond Butter Chocolate Chip
+										Zucchini Bars</a></h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitaenean sit amet tincidunt
+									ellentesque aliquet ligula in ultrices congue.</p>
+							</div>
+							<div class="flex justify-between text-gray-500 text-sm">
+								<span>20 April 2024</span>
+								<span>
+									Read time:
+									<span class="text-gray-900 font-bold">8min</span>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="flex flex-col gap-4">
+						<div class="flex flex-col">
+							<a href="#!">
+								<!-- img -->
+								<div class="img-zoom">
+									<img src="assets/images/blog/blog-img-3.html" alt=""
+										class="max-w-full h-auto w-full" />
+								</div>
+							</a>
+						</div>
+						<!-- text -->
+
+						<!-- text -->
+						<div class="flex flex-col gap-4">
+							<div><a href="#!" class="text-green-600">Company</a></div>
+							<div class="flex flex-col gap-1">
+								<h2 class="text-md"><a href="#!" class="text-inherit">Spicy Shrimp Tacos Garlic Cilantro
+										Lime Slaw</a></h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitaenean sit amet tincidunt
+									ellentesque aliquet ligula in ultrices congue.</p>
+							</div>
+							<div class="flex justify-between text-gray-500 text-sm">
+								<span>18 April 2024</span>
+								<span>
+									Read time:
+									<span class="text-gray-900 font-bold">5min</span>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="flex flex-col gap-4">
+						<div class="flex flex-col">
+							<a href="#!">
+								<!-- img -->
+								<div class="img-zoom">
+									<img src="assets/images/blog/blog-img-4.html" alt=""
+										class="max-w-full h-auto w-full" />
+								</div>
+							</a>
+						</div>
+						<!-- text -->
+
+						<!-- text -->
+						<div class="flex flex-col gap-4">
+							<div><a href="#!" class="text-green-600">Recipes</a></div>
+							<div class="flex flex-col gap-1">
+								<h2 class="text-md"><a href="#!" class="text-inherit">Red Chile Chicken Tacos with
+										Creamy Corn</a></h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitaenean sit amet tincidunt
+									ellentesque aliquet ligula in ultrices congue.</p>
+							</div>
+							<div class="flex justify-between text-gray-500 text-sm">
+								<span>16 April 2024</span>
+								<span>
+									Read time:
+									<span class="text-gray-900 font-bold">9min</span>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="flex flex-col gap-4">
+						<div class="flex flex-col">
+							<a href="#!">
+								<!-- img -->
+								<div class="img-zoom">
+									<img src="assets/images/blog/blog-img-5.html" alt=""
+										class="max-w-full h-auto w-full" />
+								</div>
+							</a>
+						</div>
+						<!-- text -->
+
+						<!-- text -->
+						<div class="flex flex-col gap-4">
+							<div><a href="#!" class="text-green-600">Retailer</a></div>
+							<div class="flex flex-col gap-1">
+								<h2 class="text-md"><a href="#!" class="text-inherit">Basic + Awesome Broccoli Cheese
+										Soup</a></h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitaenean sit amet tincidunt
+									ellentesque aliquet ligula in ultrices congue.</p>
+							</div>
+							<div class="flex justify-between text-gray-500 text-sm">
+								<span>12 April 2024</span>
+								<span>
+									Read time:
+									<span class="text-gray-900 font-bold">12min</span>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="flex flex-col gap-4">
+						<div class="flex flex-col">
+							<a href="#!">
+								<!-- img -->
+								<div class="img-zoom">
+									<img src="assets/images/blog/blog-img-6.html" alt=""
+										class="max-w-full h-auto w-full" />
+								</div>
+							</a>
+						</div>
+						<!-- text -->
+
+						<!-- text -->
+						<div class="flex flex-col gap-4">
+							<div><a href="#!" class="text-green-600">Recipes</a></div>
+							<div class="flex flex-col gap-1">
+								<h2 class="text-md"><a href="#!" class="text-inherit">No-Boil Baked Penne with
+										Meatballs</a></h2>
+								<p>Nulla consectetur sapien a libero imperdiet posuere. Donec sollicitudin, turpis sit
+									amet sollicitudin tristique, metus eros euismod tortor</p>
+							</div>
+							<div class="flex justify-between text-gray-500 text-sm">
+								<span>14 April 2024</span>
+								<span>
+									Read time:
+									<span class="text-gray-900 font-bold">6min</span>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="flex flex-col gap-4">
+						<div class="flex flex-col">
+							<a href="#!">
+								<!-- img -->
+								<div class="img-zoom">
+									<img src="assets/images/blog/blog-img-7.html" alt=""
+										class="max-w-full h-auto w-full" />
+								</div>
+							</a>
+						</div>
+						<!-- text -->
+
+						<!-- text -->
+						<div class="flex flex-col gap-4">
+							<div><a href="#!" class="text-green-600">Recipes</a></div>
+							<div class="flex flex-col gap-1">
+								<h2 class="text-md"><a href="#!" class="text-inherit">Red Chile Chicken Tacos with
+										Creamy Corn</a></h2>
+								<p>Nulla consectetur sapien a libero imperdiet posuere. Donec sollicitudin, turpis sit
+									amet sollicitudin tristique, metus eros euismod tortor</p>
+							</div>
+							<div class="flex justify-between text-gray-500 text-sm">
+								<span>13 April 2024</span>
+								<span>
+									Read time:
+									<span class="text-gray-900 font-bold">9min</span>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="flex flex-col gap-4">
+						<div class="flex flex-col">
+							<a href="#!">
+								<!-- img -->
+								<div class="img-zoom">
+									<img src="assets/images/blog/blog-img-8.html" alt=""
+										class="max-w-full h-auto w-full" />
+								</div>
+							</a>
+						</div>
+						<!-- text -->
+
+						<!-- text -->
+						<div class="flex flex-col gap-4">
+							<div><a href="#!" class="text-green-600">Retailer</a></div>
+							<div class="flex flex-col gap-1">
+								<h2 class="text-md"><a href="#!" class="text-inherit">Basic + Awesome Broccoli Cheese
+										Soup</a></h2>
+								<p>Nulla consectetur sapien a libero imperdiet posuere. Donec sollicitudin, turpis sit
+									amet sollicitudin tristique, metus eros euismod tortor</p>
+							</div>
+							<div class="flex justify-between text-gray-500 text-sm">
+								<span>12 April 2024</span>
+								<span>
+									Read time:
+									<span class="text-gray-900 font-bold">12min</span>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="flex flex-col gap-4">
+						<div class="flex flex-col">
+							<a href="#!">
+								<!-- img -->
+								<div class="img-zoom">
+									<img src="assets/images/blog/blog-img-9.html" alt=""
+										class="max-w-full h-auto w-full" />
+								</div>
+							</a>
+						</div>
+						<!-- text -->
+
+						<!-- text -->
+						<div class="flex flex-col gap-4">
+							<div><a href="#!" class="text-green-600">Recipes</a></div>
+							<div class="flex flex-col gap-1">
+								<h2 class="text-md"><a href="#!" class="text-inherit">No-Boil Baked Penne with
+										Meatballs</a></h2>
+								<p>Nulla consectetur sapien a libero imperdiet posuere. Donec sollicitudin, turpis sit
+									amet sollicitudin tristique, metus eros euismod tortor</p>
+							</div>
+							<div class="flex justify-between text-gray-500 text-sm">
+								<span>11 April 2024</span>
+								<span>
+									Read time:
+									<span class="text-gray-900 font-bold">42min</span>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="flex my-8">
+					<nav class="flex items-center gap-x-1">
+						<button type="button"
+							class="leading-none min-h-[36px] min-w-[36px] py-2 px-2.5 inline-flex justify-center items-center gap-x-1.5 rounded-md border bg-white border-gray-300 text-gray-800 hover:bg-gray-300 focus:outline-none focus:bg-gray-300 disabled:opacity-50 disabled:pointer-events-none"
+							disabled="">
+							<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left"
+								width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+								fill="none" stroke-linecap="round" stroke-linejoin="round">
+								<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+								<path d="M15 6l-6 6l6 6"></path>
+							</svg>
+						</button>
+						<div class="flex items-center gap-x-1">
+							<button type="button"
+								class="leading-none min-h-[36px] min-w-[36px] py-2 px-2.5 inline-flex justify-center items-center gap-x-1.5 rounded-md border bg-white border-gray-300 text-gray-800 hover:bg-gray-300 focus:outline-none focus:bg-gray-300 disabled:opacity-50 disabled:pointer-events-none"
+								aria-current="page">
+								1
+							</button>
+							<button type="button"
+								class="leading-none min-h-[36px] min-w-[36px] py-2 px-2.5 inline-flex justify-center items-center gap-x-1.5 rounded-md text-white border bg-green-600 border-green-600 hover:bg-green-600 focus:outline-none focus:bg-green-600 disabled:opacity-50 disabled:pointer-events-none">
+								2
+							</button>
+							<button type="button"
+								class="leading-none min-h-[36px] min-w-[36px] py-2 px-2.5 inline-flex justify-center items-center gap-x-1.5 rounded-md border bg-white border-gray-300 text-gray-800 hover:bg-gray-300 focus:outline-none focus:bg-gray-300 disabled:opacity-50 disabled:pointer-events-none">
+								3
+							</button>
+						</div>
+						<button type="button"
+							class="leading-none min-h-[36px] min-w-[36px] py-2 px-2.5 inline-flex justify-center items-center gap-x-1.5 rounded-md border bg-white border-gray-300 text-gray-800 hover:bg-gray-300 focus:outline-none focus:bg-gray-300 disabled:opacity-50 disabled:pointer-events-none">
+							<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right"
+								width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+								fill="none" stroke-linecap="round" stroke-linejoin="round">
+								<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+								<path d="M9 6l6 6l-6 6"></path>
+							</svg>
+						</button>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- footer -->
+<footer class="bg-gray-200 py-8">
+	<div class="container">
+		<div class="flex flex-wrap md:gap-4 lg:gap-0 py-4 mb-6">
+			<div class="w-full md:w-full lg:w-1/3 flex flex-col gap-4 mb-6">
+				<h6>Categories</h6>
+				<div class="flex flex-wrap">
+					<div class="w-1/2">
+						<!-- list -->
+						<ul class="flex flex-col gap-2">
+							<li><a href="#!" class="inline-block hover:text-green-600">Vegetables & Fruits</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Breakfast & instant food</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Bakery & Biscuits</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Atta, rice & dal</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Sauces & spreads</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Organic & gourmet</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Baby care</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Cleaning essentials</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Personal care</a></li>
+						</ul>
+					</div>
+					<div class="w-1/2">
+						<!-- list -->
+						<ul class="flex flex-col gap-2">
+							<li><a href="#!" class="inline-block hover:text-green-600">Dairy, bread & eggs</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Cold drinks & juices</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Tea, coffee & drinks</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Masala, oil & more</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Chicken, meat & fish</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Paan corner</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Pharma & wellness</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Home & office</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Pet care</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="w-full md:w-full lg:w-2/3">
+				<div class="flex flex-wrap">
+					<div class="w-1/2 sm:w-1/2 md:w-1/4 flex flex-col gap-4 mb-6">
+						<h6>Get to know us</h6>
+						<!-- list -->
+						<ul class="flex flex-col gap-2">
+							<li><a href="#!" class="inline-block hover:text-green-600">Company</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">About</a></li>
+							<li><a href="#!" class="inline-block">Blog</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Help Center</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Our Value</a></li>
+						</ul>
+					</div>
+					<div class="w-1/2 sm:w-1/2 md:w-1/4 flex flex-col gap-4 mb-6">
+						<h6>For Consumers</h6>
+						<ul class="flex flex-col gap-2">
+							<!-- list -->
+							<li><a href="#!" class="inline-block hover:text-green-600">Payments</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Shipping</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Product Returns</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">FAQ</a></li>
+							<li><a href="shop-checkout.html" class="inline-block">Shop Checkout</a></li>
+						</ul>
+					</div>
+					<div class="w-1/2 sm:w-1/2 md:w-1/4 flex flex-col gap-4">
+						<h6>Become a Shopper</h6>
+						<ul class="flex flex-col gap-2">
+							<!-- list -->
+							<li><a href="#!" class="inline-block hover:text-green-600">Shopper Opportunities</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Become a Shopper</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Earnings</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Ideas & Guides</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">New Retailers</a></li>
+						</ul>
+					</div>
+					<div class="w-1/2 sm:w-1/2 md:w-1/4 flex flex-col gap-4">
+						<h6>Freshcart programs</h6>
+						<ul class="flex flex-col gap-2">
+							<!-- list -->
+							<li><a href="#!" class="inline-block hover:text-green-600">Freshcart programs</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Gift Cards</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Promos & Coupons</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Freshcart Ads</a></li>
+							<li><a href="#!" class="inline-block hover:text-green-600">Careers</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="border-t py-4 border-gray-300">
+			<div class="gap-y-4 flex flex-wrap items-center justify-center lg:justify-start">
+				<div class="lg:w-2/5 lg:text-left text-center">
+					<div class="flex md:flex-row flex-col gap-3 md:gap-6 items-center">
+						<div class="text-gray-900">Payment Partners</div>
+						<ul class="flex items-center flex-row gap-4">
+							<li>
+								<a href="#!"><img src="assets/images/payment/amazonpay.svg" alt="amazon pay" /></a>
+							</li>
+							<li>
+								<a href="#!"><img src="assets/images/payment/american-express.svg" alt="american express" /></a>
+							</li>
+							<li>
+								<a href="#!"><img src="assets/images/payment/mastercard.svg" alt="mastercard" /></a>
+							</li>
+							<li>
+								<a href="#!"><img src="assets/images/payment/paypal.svg" alt="paypal" /></a>
+							</li>
+							<li>
+								<a href="#!"><img src="assets/images/payment/visa.svg" alt="visa" /></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="lg:w-3/5 flex justify-end">
+					<div class="flex flex-col md:flex-row items-center gap-3 md:gap-6">
+						<div class="text-gray-900">Get deliveries with FreshCart</div>
+						<ul class="flex flex-row gap-2">
+							<li>
+								<a href="#!"><img src="assets/images/appbutton/appstore-btn.svg" alt="" style="width: 140px" /></a>
+							</li>
+							<li>
+								<a href="#!"><img src="assets/images/appbutton/googleplay-btn.svg" alt="" style="width: 140px" /></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="border-t py-4 border-gray-300">
+			<div class="flex flex-col md:flex-row items-center gap-3">
+				<div class="md:w-1/2">
+					<span class="text-sm text-gray-500">
+						©
+						<span id="copyright">
+							<script>
+								document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()));
+							</script>
+						</span>
+						FreshCart TailwindCSS eCommerce HTML Template. Powered by
+						<a href="https://codescandy.com/" target="_blank" class="text-green-600">Codescandy</a>
+						.
+					</span>
+				</div>
+				<div class="md:w-1/2 flex md:justify-end items-center">
+					<div class="flex flex-row gap-5 items-center">
+						<div class="text-gray-500">Follow us on</div>
+						<ul class="flex items-center justify-end text-sm gap-1">
+							<li>
+								<a
+									href="#!"
+									class="inline-flex justify-center items-center align-middle text-center select-none border font-normal whitespace-no-wrap rounded leading-normal no-underline h-8 w-8 border-gray-300 hover:border-green-600 hover:text-green-600 transition ease-in-out"
+								>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										class="icon icon-tabler icon-tabler-brand-facebook"
+										width="16"
+										height="16"
+										viewBox="0 0 24 24"
+										stroke-width="1.5"
+										stroke="currentColor"
+										fill="none"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+										<path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a
+									href="#!"
+									class="inline-flex justify-center items-center align-middle text-center select-none border font-normal whitespace-no-wrap rounded leading-normal no-underline h-8 w-8 border-gray-300 hover:border-green-600 hover:text-green-600 transition ease-in-out"
+								>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										class="icon icon-tabler icon-tabler-brand-x"
+										width="16"
+										height="16"
+										viewBox="0 0 24 24"
+										stroke-width="1.5"
+										stroke="currentColor"
+										fill="none"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+										<path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+										<path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a
+									href="#!"
+									class="inline-flex justify-center items-center align-middle text-center select-none border font-normal whitespace-no-wrap rounded leading-normal no-underline h-8 w-8 border-gray-300 hover:border-green-600 hover:text-green-600 transition ease-in-out"
+								>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										class="icon icon-tabler icon-tabler-brand-instagram"
+										width="16"
+										height="16"
+										viewBox="0 0 24 24"
+										stroke-width="1.5"
+										stroke="currentColor"
+										fill="none"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+										<path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+										<path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+										<path d="M16.5 7.5l0 .01" />
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- buy now template button
+Remove if you do not want.
+-->
+
+
+	<script src="assets/js/vendors/language.js"></script>
+	<!-- Libs JS -->
+<script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/libs/simplebar/dist/simplebar.min.js"></script>
+
+<!-- Theme JS -->
+
+<script src="assets/js/theme.min.js"></script>
+
+</body>
+
+
+<!-- Mirrored from freshcart.codescandy.com/tailwindcss/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Jan 2026 12:11:22 GMT -->
+</html>

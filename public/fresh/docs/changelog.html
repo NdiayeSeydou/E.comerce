@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from freshcart.codescandy.com/tailwindcss/docs/changelog.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Jan 2026 12:11:47 GMT -->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Stay up to date with all of the latest additions and improvements we've made to FreshCart UI.
+		" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="Codescandy" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon/favicon.ico" />
+
+<!-- Libs CSS -->
+<link rel="preconnect" href="https://fonts.googleapis.com/" />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" />
+<link rel="stylesheet" href="../../../cdn.jsdelivr.net/npm/%40tabler/icons-webfont%402.46.0/tabler-icons.min.css" />
+<link rel="stylesheet" href="../assets/libs/simplebar/dist/simplebar.min.css" />
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="../assets/css/theme.min.css">
+ 
+	<title>TailwindCSS Changelog - eCommerce HTML Template - FreshCart</title>
+</head>
+
+<body>
+	<main class="docs-main-wrapper">
+		<!-- Docs navbar -->
+<header>
+	<nav class="navbar lg:flex lg:justify-between lg:flex-wrap shadow w-full fixed navbar-default z-40 bg-white">
+		<div class="container-fluid mx-auto w-full xl:px-4 lg:px-0 flex items-center">
+			<a href="../index.html"><img src="../assets/images/logo/freshcart-logo.svg" alt /></a>
+
+			<ul class="navbar-nav ml-auto flex-row items-center flex">
+				<li class="nav-item hidden md:block mr-4">
+					<a class="nav-link !border-b-0" href="#!">
+						<div class="flex items-center gap-2">
+							<span>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="18"
+									height="18"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									class="icon icon-tabler icons-tabler-outline icon-tabler-device-desktop"
+								>
+									<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+									<path d="M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10z" />
+									<path d="M7 20h10" />
+									<path d="M9 16v4" />
+									<path d="M15 16v4" />
+								</svg>
+							</span>
+							<span>Live Preview</span>
+						</div>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a
+						class="btn flex items-center gap-x-2 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300"
+						href="https://codescandy.lemonsqueezy.com/buy/7b77d92f-acf6-4fdc-885b-00fa9a0786e4"
+						target="_blank"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="16"
+							height="16"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="icon icon-tabler icons-tabler-outline icon-tabler-device-desktop"
+						>
+							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+							<path d="M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10z" />
+							<path d="M7 20h10" />
+							<path d="M9 16v4" />
+							<path d="M15 16v4" />
+						</svg>
+						Buy now
+					</a>
+				</li>
+				<li class="nav-item lg:hidden">
+					<button class="navbar-toggler btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#docsSidebar">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="icon icon-tabler icon-tabler-menu-2 text-gray-800"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							fill="none"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+							<path d="M4 6l16 0"></path>
+							<path d="M4 12l16 0"></path>
+							<path d="M4 18l16 0"></path>
+						</svg>
+					</button>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+		<!-- left sidebar -->
+		<!-- Side navbar -->
+<aside class="docs-nav-sidebar">
+	<div class="docs-nav">
+		<div class="offcanvas-md offcanvas-left" id="docsSidebar" data-bs-scroll="true">
+			<div class="!pt-16 lg:!pt-0 items-center">
+				<ul class="navbar-nav flex-col" id="sidebarnav">
+					<li class="px-6 my-4">
+						<span class="text-gray-900 font-bold">Getting Started</span>
+					</li>
+					<li class="nav-item"><a href="index.html" class="nav-link">Introduction</a></li>
+					<li class="nav-item"><a href="environment-setup.html" class="nav-link">Environment setup</a></li>
+					<li class="nav-item"><a href="working-with-gulp.html" class="nav-link">Working with Gulp</a></li>
+					<li class="nav-item"><a href="tailwindcss.html" class="nav-link">TailwindCSS</a></li>
+					<li class="nav-item"><a href="compiled-files.html" class="nav-link">Compiled Files</a></li>
+					<li class="nav-item"><a href="file-structure.html" class="nav-link">File Structure</a></li>
+					<li class="nav-item"><a href="resources-assets.html" class="nav-link">Resources & assets</a></li>
+					<li class="nav-item"><a href="changelog.html" class="nav-link">Changelog</a></li>
+
+					<li>
+						<div class="border-b border-gray-300 my-4"></div>
+					</li>
+					<li class="px-6 my-4">
+						<span class="text-gray-900 font-bold">Foundation</span>
+					</li>
+					<li class="nav-item"><a href="typography.html" class="nav-link">Typography</a></li>
+					<li class="nav-item"><a href="colors.html" class="nav-link">Colors</a></li>
+					<li class="nav-item"><a href="grid.html" class="nav-link">Grid</a></li>
+					<li class="nav-item"><a href="shadows.html" class="nav-link">Shadows</a></li>
+
+					<li>
+						<div class="border-b border-gray-300 my-4"></div>
+					</li>
+					<li class="px-6 my-4">
+						<span class="text-gray-900 font-bold">Components</span>
+					</li>
+
+					<li class="nav-item"><a href="accordion.html" class="nav-link">Accordion</a></li>
+					<li class="nav-item"><a href="alerts.html" class="nav-link">Alerts</a></li>
+					<li class="nav-item"><a href="avatar.html" class="nav-link">Avatar</a></li>
+					<li class="nav-item"><a href="badge.html" class="nav-link">Badge</a></li>
+					<li class="nav-item"><a href="blockquote.html" class="nav-link">Blockquote</a></li>
+					<li class="nav-item"><a href="breadcrumb.html" class="nav-link">Breadcrumb</a></li>
+					<li class="nav-item"><a href="button.html" class="nav-link">Buttons</a></li>
+					<li class="nav-item"><a href="button-group.html" class="nav-link">Button group</a></li>
+					<li class="nav-item"><a href="card.html" class="nav-link">Card</a></li>
+
+					<li class="nav-item"><a href="collapse.html" class="nav-link">Collapse</a></li>
+					<li class="nav-item"><a href="dropdown.html" class="nav-link">Dropdowns</a></li>
+					<li class="nav-item">
+						<a href="forms.html" class="nav-link">Forms</a>
+					</li>
+					<li class="nav-item"><a href="list-group.html" class="nav-link">List group</a></li>
+					<li class="nav-item"><a href="modal.html" class="nav-link">Modal</a></li>
+					<li class="nav-item"><a href="nav-tabs.html" class="nav-link">Navs & tabs</a></li>
+					<li class="nav-item"><a href="offcanvas.html" class="nav-link">Offcanvas</a></li>
+					<li class="nav-item"><a href="pagination.html" class="nav-link">Pagination</a></li>
+
+					<li class="nav-item"><a href="popover.html" class="nav-link">Popover</a></li>
+					<li class="nav-item"><a href="progress.html" class="nav-link">Progress</a></li>
+
+					<li class="nav-item"><a href="spinners.html" class="nav-link">Spinners</a></li>
+					<li class="nav-item"><a href="table.html" class="nav-link">Tables</a></li>
+					<li class="nav-item"><a href="toast.html" class="nav-link">Toasts</a></li>
+					<li class="nav-item"><a href="tooltip.html" class="nav-link">Tooltips</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</aside>
+
+		<!-- Wrapper  -->
+		<div class="docs-wrapper">
+			<div class="docs-content">
+				<div class="container">
+					<div class="grid grid-cols-12">
+						<div class="2xl:col-start-2 2xl:col-end-11 lg:col-start-2 lg:col-end-12 col-span-12">
+							<div class="flex flex-col gap-2 mb-8">
+								<h1 class="font-bold text-lg lg:text-3xl">Changelog</h1>
+								<p class="text-md text-gray-500">Stay up to date with all of the latest additions and
+									improvements we've
+									made to FreshCart UI.</p>
+							</div>
+						</div>
+
+						<div class="2xl:col-start-2 2xl:col-end-11 lg:col-start-2 lg:col-end-12 col-span-12 space-y-8">
+							<div class="grid grid-cols-12">
+								<div class="lg:col-span-5 col-span-12">
+									<div>
+										<h4 class="text-md">
+											<code class="text-red-600">v1.4.0</code>
+											- November 22, 2024
+										</h4>
+									</div>
+								</div>
+								<div class="lg:col-span-7 col-span-12">
+									<div class="space-y-8">
+										<div class="space-y-4">
+											<div
+												class="inline-block p-2 px-4 text-sm align-baseline leading-none rounded-full bg-cyan-100 text-cyan-800 border border-cyan-200 font-semibold">
+												New</div>
+											<h5>We added Account Pages & Dashboard</h5>
+											<ul class="list-disc pl-4">
+												<li><a href="../account-orders.html"
+														class="text-green-600">Orders</a></li>
+												<li><a href="../account-settings.html"
+														class="text-green-600">Settings</a></li>
+												<li><a href="../account-address.html"
+														class="text-green-600">Address</a></li>
+												<li><a href="../account-payment-method.html"
+														class="text-green-600">Payment Method</a>
+												</li>
+												<li><a href="../account-notification.html"
+														class="text-green-600">Notification</a></li>
+
+											</ul>
+											<ul class="list-disc pl-4">
+												<li><a href="../dashboard/index.html"
+														class="text-green-600">Dashboard</a></li>
+
+
+											</ul>
+											<h5>We added new Plugins</h5>
+											<ul class="list-disc pl-4">
+												<li><code class="text-red-600">Apexcharts</code></li>
+												<li><code class="text-red-600">Dropzone</code></li>
+												<li><code class="text-red-600">Flatpickr</code></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="grid grid-cols-12">
+								<div class="lg:col-span-5 col-span-12">
+									<div>
+										<h4 class="text-md">
+											<code class="text-red-600">v1.3.0</code>
+											- July 27, 2024
+										</h4>
+									</div>
+								</div>
+								<div class="lg:col-span-7 col-span-12">
+									<div class="space-y-8">
+										<div class="space-y-4">
+											<div
+												class="inline-block p-2 px-4 text-sm align-baseline leading-none rounded-full bg-cyan-100 text-cyan-800 border border-cyan-200 font-semibold">
+												New</div>
+											<h5>We added 4 Homepages</h5>
+											<ul class="list-disc pl-4">
+												<li><a href="../index-2.html" class="text-green-600">Home
+														Modern</a></li>
+												<li><a href="../index-3.html" class="text-green-600">Home
+														Creative</a></li>
+												<li><a href="../index-4.html" class="text-green-600">Home Local
+														Store</a></li>
+												<li><a href="../index-5.html" class="text-green-600">Home
+														Minimalist</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="grid grid-cols-12">
+								<div class="lg:col-span-5 col-span-12">
+									<div>
+										<h4 class="text-md">
+											<code class="text-red-600">v1.2.0</code>
+											- June 01, 2024
+										</h4>
+									</div>
+								</div>
+								<div class="lg:col-span-7 col-span-12">
+									<div class="space-y-8">
+										<div class="space-y-4">
+											<div
+												class="inline-block p-2 px-4 text-sm align-baseline leading-none rounded-full bg-cyan-100 text-cyan-800 border border-cyan-200 font-semibold">
+												New</div>
+											<ul class="list-disc pl-4">
+												<li>
+													We added
+													<code class="text-red-600">Prism js</code>
+												</li>
+												<li>
+													We Added
+													<code class="text-red-600">Swiperjs</code>
+													and removed
+													<code class="text-red-600">Slick Slider</code>
+												</li>
+
+												<li>List of Components</li>
+											</ul>
+										</div>
+										<div class="space-y-4">
+											<div
+												class="inline-block p-2 px-4 text-sm align-baseline leading-none rounded-full bg-yellow-100 text-yellow-800 border border-yellow-200 font-semibold">
+												Updated</div>
+											<ul class="list-disc pl-4">
+												<li>Tailwind Config js (added colors)</li>
+												<li>Well Describe Documents</li>
+												<li>Components</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="grid grid-cols-12">
+								<div class="lg:col-span-5 col-span-12">
+									<div>
+										<h4 class="text-md">
+											<code class="text-red-600">v1.0.0</code>
+											- April 05, 2024
+										</h4>
+									</div>
+								</div>
+								<div class="lg:col-span-7 col-span-12">
+									<div>
+										<h3 class="text-md">Initial Release FreshCart</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!-- Libs JS -->
+<script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
+
+<!-- Theme JS -->
+
+<script src="../assets/js/theme.min.js"></script>
+
+
+	<script src="../assets/js/vendors/sidebar-menu.html"></script>
+</body>
+
+
+<!-- Mirrored from freshcart.codescandy.com/tailwindcss/docs/changelog.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Jan 2026 12:11:47 GMT -->
+</html>
