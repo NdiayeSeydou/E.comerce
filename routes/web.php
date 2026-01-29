@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Route;
 
 
 //page d'accueil
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 //page produits
 Route::get('/produits', [App\Http\Controllers\ProductController::class, 'index'])->name('produits');
@@ -33,6 +33,18 @@ Route::get('/boutique', [App\Http\Controllers\BoutiqueController::class, 'boutiq
 
 
 
+//page du superadmin 
+require __DIR__.'/superadmin/dashboard.php';
+
+
+
+//page du commerçant 
+
+
+
+
+
+//page du client 
 
 
 
